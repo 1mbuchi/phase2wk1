@@ -7,7 +7,8 @@ const TransactionList = ({ transactions }) => {
       <ul>
         {transactions.map((transaction) => (
           <li key={transaction.id}>
-            {transaction.text} ({transaction.amount > 0 ? '+' : '-'}${Math.abs(transaction.amount)})
+             
+            {transaction.text} ({transaction.amount > 0 ? '+' : '-'}${Math.abs(transaction.amount)} )
           </li>
         ))}
       </ul>

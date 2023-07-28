@@ -3,6 +3,7 @@ import TransactionForm from './TransactionForm';
 import TransactionList from './TransactionList';
 import './App.css';
 
+
 const App = () => {
   const [transactions, setTransactions] = useState([]);
 
